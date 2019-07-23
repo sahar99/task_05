@@ -6,7 +6,7 @@
     </head>
     <body>
         {% for restaurant in restaurants %}
-            <a href="{% url 'restaurant-detail' restaurant.id %}">
+            <a href="{% url 'restaurant-detail' restaurant.id %}"> <!--dynamic,,  restaurant.id (a prameters) -->
                 <ul>
                     <li>{{ restaurant.name }}</li>
                 </ul>
